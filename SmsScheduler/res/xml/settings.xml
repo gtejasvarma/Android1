@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="home"
+    android:background="#000000" >
+
+    <PreferenceCategory
+        android:key="cat"
+        android:title="Active Call Schedules "
+        android:summary="Tap to view/delete details"
+        >
+       
+    </PreferenceCategory>
+
+ <com.avance.SmsScheduler.IconPreferenceScreen
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:key="key1"
+        android:summary="IconPreferenceScreen Summary"
+        android:title="IconPreferenceScreen Title" />
+ 
+  <com.avance.SmsScheduler.IconPreferenceScreen
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:key="key2"
+        android:summary="IconPreferenceScreen Summary"
+        android:title="IconPreferenceScreen Title" />
+  
+   <com.avance.SmsScheduler.IconPreferenceScreen
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:key="key3"
+        android:summary="IconPreferenceScreen Summary"
+        android:title="IconPreferenceScreen Title" />
+    
+</PreferenceScreen>

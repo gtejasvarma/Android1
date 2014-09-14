@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:focusable="true"
+    android:orientation="vertical" >
+
+    <!-- Header -->
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <!-- Show Preference in ListView -->
+
+    <ListView
+        android:id="@+id/android:list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+    </ListView>
+
+    <!-- Footer -->
+
+    <LinearLayout
+        android:id="@+id/footerLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingTop="7dip"
+        android:weightSum="12" >
+
+        <Button
+            android:id="@+id/callBtn"
+            style="@style/DefaultButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:drawableLeft="@drawable/trans1"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Call"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="	1dp"
+            android:layout_height="wrap_content"
+            android:background="#C8C8C8" />
+
+        <Button
+            android:id="@+id/smsBtn"
+            style="@style/DefaultButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:drawableLeft="@drawable/sms_white"
+            android:focusableInTouchMode="false"
+            android:paddingLeft="15dp"
+            android:paddingRight="20dp"
+            android:text="SMS"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="#C8C8C8" />
+
+        <Button
+            android:id="@+id/settingsBtn"
+            style="@style/DefaultButton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:drawableLeft="@drawable/setting"
+            android:focusableInTouchMode="false"
+            android:text="Setting"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+ </LinearLayout>

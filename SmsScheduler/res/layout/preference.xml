@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.customviews" >
+
+    <com.avance.SmsScheduler.IconPreferenceScreen
+ android:key="key1"
+    android:summary="IconPreferenceScreen Summary"
+    android:title="IconPreferenceScreen Title" />
+
+</LinearLayout>

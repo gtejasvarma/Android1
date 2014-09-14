@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SMS Scheduler</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_call">CallActivity</string>
+    <string name="title_activity_call_receiver">CallReceiver</string>
+    <string name="title_activity_sms_receiver">SmsReceiver</string>
+    <string name="title_activity_sendsms">SendSms</string>
+    <string name="menu_settings">Settings</string>
+    <string name="event_type">Event Type</string>
+    <string name="last_event_name">Last event time</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="message">Message</string>
+    <string name="home">Home</string>
+    <string name="done">Done</string>
+    <string name="colon">: </string>
+    <string name="choose_contact">Choose Contact</string>
+    <string name="set_date">Set Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="repeat_msg">Repeat (call/msg more than once)</string>
+    <string name="intervals">Intervals</string>
+    <string name="repeat">Repeat</string>
+    <string name="enter_sms">Enter SMS</string>
+    <string name="charges">* standard carrier charges apply</string>
+    <string name="save">Save</string>
+      <string name="cancel">Cancel</string>
+    
+    
+    
+    <string name="schedule_activity">Schedule an event</string>
+
+    <string-array name="intervals">
+        <item>Every Minute</item>
+        <item>Every 30 minutes</item>
+        <item>Every hour</item>
+        <item>Every day</item>
+        <item>Every weekday</item>
+        <item>Every week</item>
+        <item>Every month</item>
+        <item>Custom Time</item>
+    </string-array>
+    <string-array name="listOptions">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>1 is selected</item>
+        <item>2 is selected</item>
+        <item>3 is selected</item>
+    </string-array>
+
+    <string name="title_activity_add_caller">AddCaller</string>
+    <string name="title_activity_sms">SMSActivity</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_active_schedules">ActiveSchedules</string>
+    <string name="title_activity_display_schedules">DisplaySchedules</string>
+    <string name="title_activity_share_app">ShareApp</string>
+    <string name="title_activity_ui_lifecycle_helper">UiLifecycleHelper</string>
+
+</resources>
